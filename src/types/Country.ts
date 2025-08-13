@@ -16,5 +16,6 @@ export interface CountryDTO {
   }
   population?: number
   region?: string
+  capital?: string[]
   borders?: string[]
 }
