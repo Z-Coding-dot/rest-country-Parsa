@@ -58,17 +58,6 @@ npm run dev
 - `npm run preview` - Preview production build
 - `npm run lint` - Run ESLint
 
-## Project Structure
-
-```
-src/
-├── app/                    # App layer (providers, store, global styles)
-├── entities/               # Business entities (Country)
-├── features/               # Features (Search, Filter, Sort, Language)
-├── pages/                  # Pages (HomePage, CountryDetailPage)
-├── shared/                 # Shared utilities and configs
-└── widgets/                # Widgets (Header)
-```
 
 ## API Integration
 
@@ -77,22 +66,3 @@ The application uses the [REST Countries API](https://restcountries.com/) to fet
 - `GET /all` - Get all countries
 - `GET /alpha/{code}` - Get country by alpha code
 
-## Deployment
-
-The application can be deployed to any static hosting service:
-
-- **Vercel**: Connect your GitHub repository
-- **Netlify**: Drag and drop the `dist` folder
-- **GitHub Pages**: Use GitHub Actions for automatic deployment
-
-## Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Add tests if applicable
-5. Submit a pull request
-
-## License
-
-This project is created for internship purposes.
