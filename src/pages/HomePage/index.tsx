@@ -26,6 +26,7 @@ const HomePage: React.FC = () => {
     return country.name.official
   }
 
+  // filter section
   const filteredAndSortedCountries = useMemo(() => {
     let filtered = countries
 

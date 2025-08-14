@@ -9,11 +9,11 @@ interface LanguageState {
 const getInitialLanguage = (): Language => {
   const saved = localStorage.getItem('language')
   return (saved as Language) || 'en'
-}
+};
 
 const initialState: LanguageState = {
   currentLanguage: getInitialLanguage(),
-}
+};
 
 const languageSlice = createSlice({
   name: 'language',
@@ -24,7 +24,7 @@ const languageSlice = createSlice({
       localStorage.setItem('language', action.payload)
     },
   },
-})
+});
 
 export const { setLanguage } = languageSlice.actions
 export default languageSlice.reducer

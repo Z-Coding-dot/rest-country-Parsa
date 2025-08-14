@@ -8,6 +8,8 @@ import CountryDetailPage from './pages/CountryDetailPage'
 import './config/i18n'
 import './styles/globals.scss'
 
+// mean
+
 const App: React.FC = () => {
   return (
     <Provider store={store}>

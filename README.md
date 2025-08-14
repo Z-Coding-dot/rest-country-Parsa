@@ -4,25 +4,25 @@ A modern React application for displaying and interacting with a list of countri
 
 ## Features
 
-- 🌍 **Country List**: Display all countries with flags and basic information
-- 🔍 **Search**: Search countries by name with real-time filtering
-- 🗺️ **Region Filter**: Filter countries by region (Africa, Americas, Asia, Europe, Oceania)
-- 📊 **Population Sort**: Sort countries by population (ascending/descending)
-- 📱 **Responsive Design**: Mobile-friendly interface
-- 🌐 **Internationalization**: Support for English and Russian languages
-- 🔗 **Country Details**: Detailed view with border countries navigation
-- 💾 **State Persistence**: Selected parameters saved on page reload
+**Country List**: Display all countries with flags and basic information
+**Search**: Search countries by name with real-time filtering
+**Region Filter**: Filter countries by region (Africa, Americas, Asia, Europe, Oceania)
+**Population Sort**: Sort countries by population (ascending/descending)
+**Responsive Design**: Mobile-friendly interface
+**Internationalization**: Support for English and Russian languages
+**Country Details**: Detailed view with border countries navigation
+**State Persistence**: Selected parameters saved on page reload
 
 ## Technology Stack
 
-- **Core**: React 19 + TypeScript
-- **State Management**: Redux Toolkit + RTK Query
-- **Routing**: React Router DOM
-- **Internationalization**: i18next + react-i18next
-- **Styling**: Sass + SCSS Modules
-- **Architecture**: Feature-Sliced Design (FSD)
-- **Build Tool**: Vite
-- **API**: REST Countries API
+ **Core**: React 19 + TypeScript
+ **State Management**: Redux Toolkit + RTK Query
+ **Routing**: React Router DOM
+ **Internationalization**: i18next + react-i18next
+ **Styling**: Sass + SCSS Modules
+ **Architecture**: Feature-Sliced Design (FSD)
+ **Build Tool**: Vite
+ **API**: REST Countries API
 
 ## Getting Started
 

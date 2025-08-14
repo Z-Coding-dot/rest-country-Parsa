@@ -36,7 +36,7 @@ const resources = {
       'back': 'Назад',
     },
   },
-}
+};
 
 i18n.use(initReactI18next).init({
   resources,
@@ -45,6 +45,6 @@ i18n.use(initReactI18next).init({
   interpolation: {
     escapeValue: false,
   },
-})
+});
 
 export default i18n
